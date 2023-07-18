@@ -1,0 +1,11 @@
+<h1>Datepicker with mask</h1>
+
+<p-calendar [(ngModel)]="dateValue" [showTime]="true" dateMask></p-calendar>
+<br />
+<button pButton label="Save" icon="pi pi-save" (click)="askSave()"></button>
+<button
+  pButton
+  label="Update Mask"
+  icon="pi pi-refresh"
+  (click)="updateMask()"
+></button>
